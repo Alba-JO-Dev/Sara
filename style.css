@@ -1,0 +1,125 @@
+body {
+    background-color: #f8e8e8;
+    font-family: 'Times New Roman', Times, serif;
+    color: #5a3e36;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #b56576;
+    text-align: center;
+}
+
+header {
+    position: fixed;
+    background-color: #b56576;
+    color: #fff;
+    top: 0;
+    width: 100%;
+    height: auto;
+    padding: 10px 0;
+    text-align: center;
+    z-index: 1000;
+}
+
+header h1 {
+    color: #fff;
+}
+
+p {
+    line-height: 1.6;
+    margin: 0 0 1em;
+}
+
+a {
+    color: #b56576;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.Canciones {
+    text-align: center;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff0f0;
+    border: 1px solid #b56576;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+button {
+    transition: all 140ms ease-in-out;
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    color: #b56576;;
+    transition: all 240ms ease-in-out;
+    background-color: #ffffff;
+}
+
+#downText {
+    margin: 30px;
+}
+
+
+.Nosotros, .Boton, .Canciones {
+    text-align: center;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    top: 275px;
+}
+
+.Nosotros img {
+    text-align: center;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    margin: 15px;
+    border-radius: 12px;
+    width: auto;
+    height: 500px;
+    max-width: 90%;
+}
+
+
+.Nosotros h3 {
+    margin-top: 50px;
+}
+
+#volver {
+    border: none;
+    background-color: #b56576;
+    color: #fff;
+}
+
+#volver:hover {
+    background-color: #f8e8e8;
+    color: #b56576;
+    border: 1px solid #b56576;
+    transform: scale(150%);
+}
+
+#si:hover {
+    transform: scale(150%);
+}
