@@ -24,7 +24,11 @@ header {
     z-index: 1000;
 }
 
-header h1, h2, h3, h4, h5, h6 {
+header h1 {
+    color: #fff;
+}
+
+header h6 {
     color: #fff;
 }
 
